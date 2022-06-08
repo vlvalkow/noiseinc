@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogue ctitle="Catalogue">
+	<record>
+		<id>1</id>
+		<image background="rgb(221, 0, 0)">/assets/img/red.png</image>
+		<rtitle>Record 1</rtitle>
+		<description color="#e7e7e7">Description of Record 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget feugiat odio. Vivamus in ipsum in massa volutpat ultrices. Vestibulum quam tortor, facilisis sit amet ligula vel, ultricies fermentum dui. Curabitur risus justo, sagittis et laoreet a, ornare ac eros. Donec blandit malesuada elit, sit amet mattis odio venenatis sed. Etiam at purus at justo volutpat interdum. Nulla facilisi. Ut vel arcu tristique, faucibus erat id, hendrerit neque. </description>
+		<interest background="rgb(221, 0, 0)"/>	
+	</record>
+	<record>
+		<id>2</id>
+		<image background="rgb(0, 143, 57)">/assets/img/green.png</image>
+		<rtitle>Record 2</rtitle>
+		<description color="#e7e7e7">Description of Record 2. Nulla lacus tellus, pretium id nisl id, sagittis facilisis quam. Donec bibendum porttitor felis, a faucibus sapien malesuada vel. Fusce vitae odio iaculis, commodo neque ut, dignissim ante. Aliquam at lacus eu dui luctus varius sit amet ac turpis. Praesent id ornare nisl. Donec eu risus sit amet sem venenatis iaculis non at odio. Praesent in dapibus arcu, eu pellentesque lacus. </description>
+		<interest background="rgb(0, 143, 57)"/>
+	</record>
+	<record>
+		<id>3</id>
+		<image background="rgb(62, 146, 255)">/assets/img/blue.png</image>
+		<rtitle>Record 3</rtitle>
+		<description color="#e7e7e7">Description of Record 3. Quisque congue sit amet lorem eget scelerisque. Sed luctus nunc nec urna congue finibus. Phasellus porttitor tortor est, eu eleifend sapien dignissim sit amet. Nulla vitae justo ex. Aenean feugiat imperdiet magna quis blandit. Donec laoreet purus nisi, vitae tempus metus euismod in. Vestibulum sollicitudin rhoncus dolor sed dignissim. In eleifend facilisis iaculis. Curabitur ac turpis enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi sollicitudin eros sapien, in fringilla est tempus et. Aliquam vel vehicula leo, in pretium justo. </description>
+		<interest background="rgb(62, 146, 255)"/>	
+	</record>
+	<record>
+		<id>4</id>
+		<image background="rgb(143, 0, 188)">/assets/img/purple.png</image>
+		<rtitle>Record 4</rtitle>
+		<description color="#e7e7e7">Description of Record 4. Morbi eu felis a leo fringilla eleifend ac in orci. Aliquam finibus porta elementum. Integer vulputate, urna quis vestibulum tempus, magna nisi imperdiet erat, vitae placerat velit nisi quis elit. Nulla mi ipsum, suscipit id ultricies nec, finibus a mauris. Suspendisse felis felis, aliquet pharetra pellentesque ornare, eleifend eu orci. Quisque sed orci ornare, imperdiet dui sit amet, convallis augue. Nunc vitae dui at tortor porttitor cursus. </description>
+		<interest background="rgb(143, 0, 188)"/>	
+	</record>
+	<record>
+		<id>5</id>
+		<image background="rgb(255, 198, 0)">/assets/img/yellow.png</image>
+		<rtitle>Record 5</rtitle>
+		<description color="#151515">Description of Record 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget feugiat odio. Vivamus in ipsum in massa volutpat ultrices. Vestibulum quam tortor, facilisis sit amet ligula vel, ultricies fermentum dui. Curabitur risus justo, sagittis et laoreet a, ornare ac eros. Donec blandit malesuada elit, sit amet mattis odio venenatis sed. Etiam at purus at justo volutpat interdum. Nulla facilisi. Ut vel arcu tristique, faucibus erat id, hendrerit neque. </description>
+		<interest background="rgb(255, 198, 0)"/>		
+	</record>
+	<record>
+		<id>6</id>
+		<image background="rgb(221, 0, 0)">/assets/img/red.png</image>
+		<rtitle>Record 6</rtitle>
+		<description color="#e7e7e7">Description of Record 6. Quisque congue sit amet lorem eget scelerisque. Sed luctus nunc nec urna congue finibus. Phasellus porttitor tortor est, eu eleifend sapien dignissim sit amet. Nulla vitae justo ex. Aenean feugiat imperdiet magna quis blandit. Donec laoreet purus nisi, vitae tempus metus euismod in. Vestibulum sollicitudin rhoncus dolor sed dignissim. In eleifend facilisis iaculis. Curabitur ac turpis enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi sollicitudin eros sapien, in fringilla est tempus et. Aliquam vel vehicula leo, in pretium justo. </description>
+		<interest background="rgb(221, 0, 0)"/>	
+	</record>
+	<record>
+		<id>7</id>
+		<image background="rgb(62, 146, 255)">/assets/img/blue.png</image>
+		<rtitle>Record 7</rtitle>
+		<description color="#e7e7e7">Description of Record 7. Morbi eu felis a leo fringilla eleifend ac in orci. Aliquam finibus porta elementum. Integer vulputate, urna quis vestibulum tempus, magna nisi imperdiet erat, vitae placerat velit nisi quis elit. Nulla mi ipsum, suscipit id ultricies nec, finibus a mauris. Suspendisse felis felis, aliquet pharetra pellentesque ornare, eleifend eu orci. Quisque sed orci ornare, imperdiet dui sit amet, convallis augue. Nunc vitae dui at tortor porttitor cursus. </description>
+		<interest background="rgb(62, 146, 255)"/>		
+	</record>
+	<record>
+		<id>8</id>
+		<image background="rgb(0, 143, 57)">/assets/img/green.png</image>
+		<rtitle>Record 8</rtitle>
+		<description color="#e7e7e7">Description of Record 8. Quisque congue sit amet lorem eget scelerisque. Sed luctus nunc nec urna congue finibus. Phasellus porttitor tortor est, eu eleifend sapien dignissim sit amet. Nulla vitae justo ex. Aenean feugiat imperdiet magna quis blandit. Donec laoreet purus nisi, vitae tempus metus euismod in. Vestibulum sollicitudin rhoncus dolor sed dignissim. In eleifend facilisis iaculis. Curabitur ac turpis enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi sollicitudin eros sapien, in fringilla est tempus et. Aliquam vel vehicula leo, in pretium justo. </description>
+		<interest background="rgb(0, 143, 57)"/>		
+	</record>
+	<record>
+		<id>9</id>
+		<image background="rgb(143, 0, 188)">/assets/img/purple.png</image>
+		<rtitle>Record 9</rtitle>
+		<description color="#e7e7e7">Description of Record 9. Nulla lacus tellus, pretium id nisl id, sagittis facilisis quam. Donec bibendum porttitor felis, a faucibus sapien malesuada vel. Fusce vitae odio iaculis, commodo neque ut, dignissim ante. Aliquam at lacus eu dui luctus varius sit amet ac turpis. Praesent id ornare nisl. Donec eu risus sit amet sem venenatis iaculis non at odio. Praesent in dapibus arcu, eu pellentesque lacus. </description>
+		<interest background="rgb(143, 0, 188)"/>	
+	</record>		
+</catalogue>

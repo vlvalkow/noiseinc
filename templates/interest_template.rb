@@ -1,8 +1,11 @@
 require '../templates/partials/head_partial'
+require '../templates/partials/header_partial'
+
 
 class Template
     def render(data)
         head_partial = HeadPartial.new
+        header_partial = HeaderPartial.new
 
         <<-TEMPLATE
         <html land="en">
@@ -11,11 +14,12 @@ class Template
                 #{head_partial.render}
             </head>
             <body>
+                #{header_partial.render({'username' => data['username']})}
                 <div class="page-title">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1>Catalogue</h1>
+                                <h1>Your interest was recorded!</h1>
                             </div>
                         </div>
                     </div>

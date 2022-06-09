@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<users>
+    <user>
+        <id>1</id>
+        <type>admin</type>
+        <username>admin</username>
+        <password>e10adc3949ba59abbe56e057f20f883e</password>
+        <email>admin@server.com</email>
+        </user>
+</users>

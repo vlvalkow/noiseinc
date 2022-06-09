@@ -1,11 +1,9 @@
 class App
-    def initialize(cgi, router)
-        @cgi = cgi
+    def initialize(router)
         @router = router
     end
 
 	def run()
-        puts @cgi.header
-        puts @router.route(@cgi)
+        @router.route()
 	end
 end

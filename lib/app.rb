@@ -3,7 +3,7 @@ class App
         @router = router
     end
 
-	def run()
-        @router.route()
+	def handle(request)
+        @router.route(request)
 	end
 end

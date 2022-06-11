@@ -11,20 +11,23 @@ require '../lib/router'
 require '../lib/renderer'
 require '../lib/controller'
 require '../lib/session'
+require '../lib/request'
+require '../lib/response'
 
 cgi = CGI.new
 
+request = Request.new(
+    ENV['REQUEST_METHOD'], 
+    ENV["REQUEST_URI"],
+    cgi.params
+)
+
 app = App.new(
     Router.new(
-        ENV["REQUEST_URI"],
-        cgi,
-        Controller.new(
-            Renderer.new
-        ),
-        SessionManager.new(
-            CGI::Session.new(cgi)
-        )
+        Controller.new(Renderer.new),
+        SessionManager.new(CGI::Session.new(cgi))
     )
 )
 
-app.run
+response = app.handle(request)
+response.send(cgi)

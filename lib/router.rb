@@ -1,60 +1,55 @@
 class Router
-    def initialize(request_uri, cgi, controller, session_manager)
-        @request_uri = request_uri
-        @cgi = cgi
+    def initialize(controller, session_manager)
         @controller = controller
         @session_manager = session_manager
     end
-    
-    def route()
+
+    def route(request)
         case
         # /
-        when /^\/$/.match(@request_uri)
+        when /^\/$/.match(request.uri)
             session = @session_manager.get
             if session['username'].nil?
-                puts @cgi.header('status' => '302', 'location' => '/login')
-                abort
+                return Response.new('', 302, {'location' => '/login'})
             end
 
-            @controller.home(@cgi, session)
+            @controller.home(session)
         # /records/{id}
-        when /^\/records\/([0-9]+)$/.match(@request_uri)
+        when /^\/records\/([0-9]+)$/.match(request.uri)
             session = @session_manager.get
             if session['username'].nil?
-                puts @cgi.header('status' => '302', 'location' => '/login')
-                abort
+                return Response.new('', 302, {'location' => '/login'})
             end
 
-            @controller.record($1, @cgi, session)
+            @controller.record($1, session)
         # /records/{id}/interest
-        when /^\/records\/([0-9]+)\/interest$/.match(@request_uri)
+        when /^\/records\/([0-9]+)\/interest$/.match(request.uri)
             session = @session_manager.get
             if session['username'].nil?
-                puts @cgi.header('status' => '302', 'location' => '/login')
-                abort
+                return Response.new('', 302, {'location' => '/login'})
             end
 
-            @controller.interest($1, @cgi, session)
+            @controller.interest($1, session)
         # /login
-        when /^\/login$/.match(@request_uri)
+        when /^\/login$/.match(request.uri)
             session = @session_manager.get
             if !session['username'].nil?
-                puts @cgi.header('status' => '302', 'location' => '/')
-                abort
+                return Response.new('', 302, {'location' => '/'})
             end
 
-            @controller.login(@cgi, session)
+            @controller.login(request, session)
         # /logout
-        when /^\/logout$/.match(@request_uri)
+        when /^\/logout$/.match(request.uri)
             session = @session_manager.get
             if session['username'].nil?
-                puts @cgi.header('status' => '302', 'location' => '/login')
-                abort
+                return Response.new('', 302, {'location' => '/login'})
             end
 
-            @controller.logout(@cgi, @session_manager)
+            @session_manager.delete
+
+            @controller.logout(request)
         else
-            @controller.not_found(@request_uri, @cgi)
+            @controller.not_found(request)
         end
     end
 end

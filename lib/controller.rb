@@ -59,7 +59,7 @@ class Controller
     end
 
     def logout(request)
-        return Response.new('', 302, {'location' => '/login'})
+        Response.new('', 302, {'location' => '/login'})
     end
 
     def not_found(request)

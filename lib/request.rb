@@ -16,4 +16,8 @@ class Request
     def parameters()
         @parameters
     end
+
+    def parameters=(parameters)
+        @parameters = parameters
+    end
 end

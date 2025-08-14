@@ -1,8 +1,10 @@
 require '../templates/partials/head_partial'
+require '../templates/partials/header_partial'
 
 class Template
     def render(data)
         head_partial = HeadPartial.new
+        header_partial = HeaderPartial.new
         success_html = ''
         if data && data['success']
             success_html = '<div class="success_message" role="alert"><p>' + data['success'] + '</p></div>'
@@ -19,6 +21,7 @@ class Template
                 #{head_partial.render}
             </head>
             <body>
+                #{header_partial.render({'username' => data['username']})}
                 <div class="page-title">
                     <div class="container">
                         <div class="row">

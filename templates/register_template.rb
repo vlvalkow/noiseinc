@@ -1,8 +1,10 @@
 require '../templates/partials/head_partial'
+require '../templates/partials/header_partial'
 
 class Template
     def render(data)
         head_partial = HeadPartial.new
+        header_partial = HeaderPartial.new
         errors_html = ''
         if data && data['errors'] && data['errors'].any?
             errors_html = '<div class="error_message" role="alert"><p>' + data['errors'].map { |e| "<div>#{e}</div>" }.join + '</p></div>'
@@ -14,6 +16,7 @@ class Template
                 #{head_partial.render}
             </head>
             <body>
+                #{header_partial.render({'username' => data['username']})}
                 <div class="page-title">
                     <div class="container">
                         <div class="row">

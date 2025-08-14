@@ -48,9 +48,13 @@ class Controller
                 return Response.new('', 302, {'location' => '/login'})
             end
 
-            if user[7].text != Digest::MD5.hexdigest(request.parameters['password'])
-                @session['error'] = 'Invalid username or password.'
-                return Response.new('', 302, {'location' => '/login'})
+            password_element = user.elements['password']
+            if password_element.nil? || password_element.text != Digest::MD5.hexdigest(request.parameters['password'])
+                return Response.new(@renderer.render('login_template', {
+                    'success' => nil,
+                    'error' => 'Invalid username or password.',
+                    'username' => request.parameters['username']
+                }))
             end
     
             @session['username'] = request.parameters['username']
@@ -129,9 +133,11 @@ class Controller
             new_user.add_element('email').text = email
             users_root.add_element(new_user)
 
-            # Save XML
+            # Save XML with pretty formatting (4 spaces)
             File.open("../database/users.xml", "w") do |f|
-                users_xml_document.write(f)
+                formatter = REXML::Formatters::Pretty.new(4)
+                formatter.compact = true
+                formatter.write(users_xml_document, f)
             end
 
             @session['success'] = 'Your account has been created successfully. Please login below.'

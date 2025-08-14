@@ -5,3 +5,6 @@ services:
       dockerfile: .infra/Dockerfile
     ports:
       - "8080:80"
+    volumes:
+      - .:/usr/local/apache2/htdocs
+    working_dir: /usr/local/apache2/htdocs

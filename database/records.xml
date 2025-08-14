@@ -62,5 +62,194 @@
 		<rtitle>Record 9</rtitle>
 		<description color="#e7e7e7">Description of Record 9. Nulla lacus tellus, pretium id nisl id, sagittis facilisis quam. Donec bibendum porttitor felis, a faucibus sapien malesuada vel. Fusce vitae odio iaculis, commodo neque ut, dignissim ante. Aliquam at lacus eu dui luctus varius sit amet ac turpis. Praesent id ornare nisl. Donec eu risus sit amet sem venenatis iaculis non at odio. Praesent in dapibus arcu, eu pellentesque lacus. </description>
 		<interest background="rgb(143, 0, 188)"/>	
-	</record>		
+	</record>
+	<record>
+		<id>10</id>
+		<image background="rgb(128, 128, 128)">/assets/img/grey.png</image>
+		<rtitle>Record 10</rtitle>
+		<description color="#e7e7e7">Description of Record 10. Integer vulputate, urna quis vestibulum tempus.</description>
+		<interest background="rgb(128, 128, 128)"/>
+	</record>
+	<record>
+		<id>11</id>
+		<image background="rgb(255, 105, 180)">/assets/img/clear.png</image>
+		<rtitle>Record 11</rtitle>
+		<description color="#e7e7e7">Description of Record 11. Suspendisse felis felis, aliquet pharetra pellentesque ornare.</description>
+		<interest background="rgb(255, 105, 180)"/>
+	</record>
+	<record>
+		<id>12</id>
+		<image background="rgb(255, 140, 0)">/assets/img/clear.png</image>
+		<rtitle>Record 12</rtitle>
+		<description color="#e7e7e7">Description of Record 12. Praesent id ornare nisl. Donec eu risus sit amet sem venenatis iaculis.</description>
+		<interest background="rgb(255, 140, 0)"/>
+	</record>
+	<record>
+		<id>13</id>
+		<image background="rgb(0, 191, 255)">/assets/img/clear.png</image>
+		<rtitle>Record 13</rtitle>
+		<description color="#e7e7e7">Description of Record 13. Aliquam at lacus eu dui luctus varius sit amet ac turpis.</description>
+		<interest background="rgb(0, 191, 255)"/>
+	</record>
+	<record>
+		<id>14</id>
+		<image background="rgb(255, 20, 147)">/assets/img/clear.png</image>
+		<rtitle>Record 14</rtitle>
+		<description color="#e7e7e7">Description of Record 14. Donec bibendum porttitor felis, a faucibus sapien malesuada vel.</description>
+		<interest background="rgb(255, 20, 147)"/>
+	</record>
+	<record>
+		<id>15</id>
+		<image background="rgb(0, 255, 127)">/assets/img/clear.png</image>
+		<rtitle>Record 15</rtitle>
+		<description color="#e7e7e7">Description of Record 15. Fusce vitae odio iaculis, commodo neque ut, dignissim ante.</description>
+		<interest background="rgb(0, 255, 127)"/>
+	</record>
+	<record>
+		<id>16</id>
+		<image background="rgb(255, 69, 0)">/assets/img/clear.png</image>
+		<rtitle>Record 16</rtitle>
+		<description color="#e7e7e7">Description of Record 16. Praesent in dapibus arcu, eu pellentesque lacus.</description>
+		<interest background="rgb(255, 69, 0)"/>
+	</record>
+	<record>
+		<id>17</id>
+		<image background="rgb(0, 206, 209)">/assets/img/clear.png</image>
+		<rtitle>Record 17</rtitle>
+		<description color="#e7e7e7">Description of Record 17. Morbi sollicitudin eros sapien, in fringilla est tempus et.</description>
+		<interest background="rgb(0, 206, 209)"/>
+	</record>
+	<record>
+		<id>18</id>
+		<image background="rgb(255, 215, 0)">/assets/img/clear.png</image>
+		<rtitle>Record 18</rtitle>
+		<description color="#151515">Description of Record 18. Aliquam vel vehicula leo, in pretium justo.</description>
+		<interest background="rgb(255, 215, 0)"/>
+	</record>
+	<record>
+		<id>19</id>
+		<image background="rgb(75, 0, 130)">/assets/img/clear.png</image>
+		<rtitle>Record 19</rtitle>
+		<description color="#e7e7e7">Description of Record 19. Donec eu risus sit amet sem venenatis iaculis non at odio.</description>
+		<interest background="rgb(75, 0, 130)"/>
+	</record>
+	<record>
+		<id>20</id>
+		<image background="rgb(255, 250, 205)">/assets/img/clear.png</image>
+		<rtitle>Record 20</rtitle>
+		<description color="#151515">Description of Record 20. Praesent id ornare nisl. Donec eu risus sit amet sem venenatis iaculis.</description>
+		<interest background="rgb(255, 250, 205)"/>
+	</record>
+	<record>
+		<id>21</id>
+		<image background="rgb(0, 128, 128)">/assets/img/clear.png</image>
+		<rtitle>Record 21</rtitle>
+		<description color="#e7e7e7">Description of Record 21. Quisque sed orci ornare, imperdiet dui sit amet, convallis augue.</description>
+		<interest background="rgb(0, 128, 128)"/>
+	</record>
+	<record>
+		<id>22</id>
+		<image background="rgb(255, 99, 71)">/assets/img/clear.png</image>
+		<rtitle>Record 22</rtitle>
+		<description color="#e7e7e7">Description of Record 22. Nulla mi ipsum, suscipit id ultricies nec, finibus a mauris.</description>
+		<interest background="rgb(255, 99, 71)"/>
+	</record>
+	<record>
+		<id>23</id>
+		<image background="rgb(0, 0, 128)">/assets/img/clear.png</image>
+		<rtitle>Record 23</rtitle>
+		<description color="#e7e7e7">Description of Record 23. Vestibulum quam tortor, facilisis sit amet ligula vel.</description>
+		<interest background="rgb(0, 0, 128)"/>
+	</record>
+	<record>
+		<id>24</id>
+		<image background="rgb(255, 228, 225)">/assets/img/clear.png</image>
+		<rtitle>Record 24</rtitle>
+		<description color="#151515">Description of Record 24. Donec blandit malesuada elit, sit amet mattis odio venenatis sed.</description>
+		<interest background="rgb(255, 228, 225)"/>
+	</record>
+	<record>
+		<id>25</id>
+		<image background="rgb(0, 255, 255)">/assets/img/clear.png</image>
+		<rtitle>Record 25</rtitle>
+		<description color="#e7e7e7">Description of Record 25. Etiam at purus at justo volutpat interdum.</description>
+		<interest background="rgb(0, 255, 255)"/>
+	</record>
+	<record>
+		<id>26</id>
+		<image background="rgb(255, 160, 122)">/assets/img/clear.png</image>
+		<rtitle>Record 26</rtitle>
+		<description color="#151515">Description of Record 26. Nulla facilisi. Ut vel arcu tristique, faucibus erat id, hendrerit neque.</description>
+		<interest background="rgb(255, 160, 122)"/>
+	</record>
+	<record>
+		<id>27</id>
+		<image background="rgb(0, 100, 0)">/assets/img/clear.png</image>
+		<rtitle>Record 27</rtitle>
+		<description color="#e7e7e7">Description of Record 27. Suspendisse felis felis, aliquet pharetra pellentesque ornare.</description>
+		<interest background="rgb(0, 100, 0)"/>
+	</record>
+	<record>
+		<id>28</id>
+		<image background="rgb(255, 215, 180)">/assets/img/clear.png</image>
+		<rtitle>Record 28</rtitle>
+		<description color="#151515">Description of Record 28. Integer vulputate, urna quis vestibulum tempus.</description>
+		<interest background="rgb(255, 215, 180)"/>
+	</record>
+	<record>
+		<id>29</id>
+		<image background="rgb(70, 130, 180)">/assets/img/clear.png</image>
+		<rtitle>Record 29</rtitle>
+		<description color="#e7e7e7">Description of Record 29. Morbi eu felis a leo fringilla eleifend ac in orci.</description>
+		<interest background="rgb(70, 130, 180)"/>
+	</record>
+	<record>
+		<id>30</id>
+		<image background="rgb(255, 182, 193)">/assets/img/clear.png</image>
+		<rtitle>Record 30</rtitle>
+		<description color="#151515">Description of Record 30. Quisque congue sit amet lorem eget scelerisque.</description>
+		<interest background="rgb(255, 182, 193)"/>
+	</record>
+	<record>
+		<id>31</id>
+		<image background="rgb(0, 0, 0)">/assets/img/clear.png</image>
+		<rtitle>Record 31</rtitle>
+		<description color="#e7e7e7">Description of Record 31. Morbi eu felis a leo fringilla eleifend ac in orci.</description>
+		<interest background="rgb(0, 0, 0)"/>
+	</record>
+	<record>
+		<id>32</id>
+		<image background="rgb(255, 255, 255)">/assets/img/clear.png</image>
+		<rtitle>Record 32</rtitle>
+		<description color="#151515">Description of Record 32. Quisque congue sit amet lorem eget scelerisque.</description>
+		<interest background="rgb(255, 255, 255)"/>
+	</record>
+	<record>
+		<id>33</id>
+		<image background="rgb(210, 180, 140)">/assets/img/clear.png</image>
+		<rtitle>Record 33</rtitle>
+		<description color="#e7e7e7">Description of Record 33. Morbi eu felis a leo fringilla eleifend ac in orci.</description>
+		<interest background="rgb(210, 180, 140)"/>
+	</record>
+	<record>
+		<id>34</id>
+		<image background="rgb(123, 104, 238)">/assets/img/clear.png</image>
+		<rtitle>Record 34</rtitle>
+		<description color="#e7e7e7">Description of Record 34. Quisque congue sit amet lorem eget scelerisque.</description>
+		<interest background="rgb(123, 104, 238)"/>
+	</record>
+	<record>
+		<id>35</id>
+		<image background="rgb(255, 127, 80)">/assets/img/clear.png</image>
+		<rtitle>Record 35</rtitle>
+		<description color="#e7e7e7">Description of Record 35. Morbi eu felis a leo fringilla eleifend ac in orci.</description>
+		<interest background="rgb(255, 127, 80)"/>
+	</record>
+	<record>
+		<id>36</id>
+		<image background="rgb(0, 250, 154)">/assets/img/clear.png</image>
+		<rtitle>Record 36</rtitle>
+		<description color="#e7e7e7">Description of Record 36. Quisque congue sit amet lorem eget scelerisque.</description>
+		<interest background="rgb(0, 250, 154)"/>
+	</record>
 </catalogue>

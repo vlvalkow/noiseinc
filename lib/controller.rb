@@ -1,3 +1,5 @@
+require_relative 'related_records_service'
+
 class Controller
     def initialize(renderer, session)
         @renderer = renderer
@@ -18,10 +20,15 @@ class Controller
     def record(request)
         xmlfile = File.new("../database/records.xml")
         records_xml_document = REXML::Document.new xmlfile
-        record = records_xml_document.get_elements("//record[id=#{request.parameters['record_id']}]").first
+        record = records_xml_document.get_elements("//record[id=#{request.parameters['record_id']}]" ).first
+        all_records = records_xml_document.get_elements("//record")
+        related_service = RelatedRecordsService.new(all_records)
+        related_records = related_service.find_related(record, 4)
 
         Response.new(@renderer.render('record_template', {
             'record' => record,
+            'all_records' => all_records,
+            'related_records' => related_records,
             'username' => @session['username']
         }))
     end

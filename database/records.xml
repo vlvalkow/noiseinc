@@ -252,4 +252,88 @@
 		<description color="#e7e7e7">Description of Record 36. Quisque congue sit amet lorem eget scelerisque.</description>
 		<interest background="rgb(0, 250, 154)"/>
 	</record>
+	<record>
+		<id>37</id>
+		<image background="rgb(255, 87, 34)">/assets/img/clear.png</image>
+		<rtitle>Record 37</rtitle>
+		<description color="#e7e7e7">Description of Record 37. Deep Orange.</description>
+		<interest background="rgb(255, 87, 34)"/>
+	</record>
+	<record>
+		<id>38</id>
+		<image background="rgb(0, 188, 212)">/assets/img/clear.png</image>
+		<rtitle>Record 38</rtitle>
+		<description color="#e7e7e7">Description of Record 38. Cyan.</description>
+		<interest background="rgb(0, 188, 212)"/>
+	</record>
+	<record>
+		<id>39</id>
+		<image background="rgb(205, 220, 57)">/assets/img/clear.png</image>
+		<rtitle>Record 39</rtitle>
+		<description color="#e7e7e7">Description of Record 39. Lime.</description>
+		<interest background="rgb(205, 220, 57)"/>
+	</record>
+	<record>
+		<id>40</id>
+		<image background="rgb(255, 193, 7)">/assets/img/clear.png</image>
+		<rtitle>Record 40</rtitle>
+		<description color="#e7e7e7">Description of Record 40. Amber.</description>
+		<interest background="rgb(255, 193, 7)"/>
+	</record>
+	<record>
+		<id>41</id>
+		<image background="rgb(121, 85, 72)">/assets/img/clear.png</image>
+		<rtitle>Record 41</rtitle>
+		<description color="#e7e7e7">Description of Record 41. Brown.</description>
+		<interest background="rgb(121, 85, 72)"/>
+	</record>
+	<record>
+		<id>42</id>
+		<image background="rgb(233, 30, 99)">/assets/img/clear.png</image>
+		<rtitle>Record 42</rtitle>
+		<description color="#e7e7e7">Description of Record 42. Pink.</description>
+		<interest background="rgb(233, 30, 99)"/>
+	</record>
+	<record>
+		<id>43</id>
+		<image background="rgb(63, 81, 181)">/assets/img/clear.png</image>
+		<rtitle>Record 43</rtitle>
+		<description color="#e7e7e7">Description of Record 43. Indigo.</description>
+		<interest background="rgb(63, 81, 181)"/>
+	</record>
+	<record>
+		<id>44</id>
+		<image background="rgb(76, 175, 80)">/assets/img/clear.png</image>
+		<rtitle>Record 44</rtitle>
+		<description color="#e7e7e7">Description of Record 44. Light Green.</description>
+		<interest background="rgb(76, 175, 80)"/>
+	</record>
+	<record>
+		<id>45</id>
+		<image background="rgb(156, 39, 176)">/assets/img/clear.png</image>
+		<rtitle>Record 45</rtitle>
+		<description color="#e7e7e7">Description of Record 45. Purple.</description>
+		<interest background="rgb(156, 39, 176)"/>
+	</record>
+	<record>
+		<id>46</id>
+		<image background="rgb(255, 235, 59)">/assets/img/clear.png</image>
+		<rtitle>Record 46</rtitle>
+		<description color="#e7e7e7">Description of Record 46. Yellow.</description>
+		<interest background="rgb(255, 235, 59)"/>
+	</record>
+	<record>
+		<id>47</id>
+		<image background="rgb(139, 195, 74)">/assets/img/clear.png</image>
+		<rtitle>Record 47</rtitle>
+		<description color="#e7e7e7">Description of Record 47. Green.</description>
+		<interest background="rgb(139, 195, 74)"/>
+	</record>
+	<record>
+		<id>48</id>
+		<image background="rgb(158, 158, 158)">/assets/img/clear.png</image>
+		<rtitle>Record 48</rtitle>
+		<description color="#e7e7e7">Description of Record 48. Grey.</description>
+		<interest background="rgb(158, 158, 158)"/>
+	</record>
 </catalogue>

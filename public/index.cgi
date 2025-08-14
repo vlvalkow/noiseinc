@@ -21,6 +21,7 @@ routes = [
     Route.new('record', /^\/records\/(?<record_id>[0-9]+)$/, {'middleware' => 'auth'}),
     Route.new('interest', /^\/records\/(?<record_id>[0-9]+)\/interest$/, {'middleware' => 'auth'}),
     Route.new('login', /^\/login$/, {'middleware' => 'guest'}),
+    Route.new('register', /^\/register$/, {'middleware' => 'guest'}),
     Route.new('logout', /^\/logout$/, {'middleware' => 'auth'}),
 ]
 

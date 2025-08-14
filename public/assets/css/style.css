@@ -270,25 +270,19 @@ input{
 }
 
 
-.error-box{
-	background: #DC1010 none repeat scroll 0% 0%;
-	width: 25%;
-	padding: 13px 19px;
-	margin-top: 30px;
+.error_message {
+	background-color: #DC1010;
 }
 
-.success_message{
+.success_message {
 	background-color: rgb(11, 156, 53);
-	margin: 20px 0 20px 0;
-
 }
 
-.success_message p{
+.success_message p, .error_message p {
 	color:#e7e7e7;
 	padding:20px 30px;
 	font-size: 16px;
 }
-
 
 .navbar-nav li a.logout-btn{
 	background-color: #151515;

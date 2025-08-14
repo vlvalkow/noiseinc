@@ -3,6 +3,14 @@ require '../templates/partials/head_partial'
 class Template
     def render(data)
         head_partial = HeadPartial.new
+        success_html = ''
+        if data && data['success']
+            success_html = '<div class="success_message" role="alert"><p>' + data['success'] + '</p></div>'
+        end
+        error_html = ''
+        if data && data['error']
+            error_html = '<div class="error_message" role="alert"><p>' + data['error'] + '</p></div>'
+        end
 
         <<-TEMPLATE
         <html land="en">
@@ -24,6 +32,8 @@ class Template
                     <div class="container" style="margin-top:30px;">
                         <div class="row">
                             <div class="login">
+                                #{success_html}
+                                #{error_html}
 								<form method="post">
                                     <div class="form-group">
 									    <label for="username">Username:</label>
